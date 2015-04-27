@@ -1,0 +1,11 @@
+1.  The name I used in the program:
+    Chuhan Feng
+
+2.  A valid serial number associated with my name:
+    c326-1176-0a5b-7d43
+
+3.  Details about the program and my solution:
+    (I disassembled two key functions to this program. One is main() function,
+    the other is test_key() function. The disassembled codes and all explanations
+    can be found in the file named disassembly.c)
+
