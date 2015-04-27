@@ -1,5 +1,10 @@
 #!/usr/bin/ruby
 
+# FILE:  serial_generator.rb
+# NAME:  Chuhan Feng
+# DATE:  APR 26, 2015
+# CLASS: CSE 2421, T/TH 4:10PM
+
 # Initialize validation keys
 s1_key = 0xbeef
 s2_key = factorize(0xc0ffee)[0]

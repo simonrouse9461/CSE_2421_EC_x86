@@ -1,3 +1,15 @@
+/*
+ * FILE:  disassembly.c
+ * NAME:  Chuhan Feng
+ * DATE:  APR 26, 2015
+ * CLASS: CSE 2421, T/TH 4:10PM
+ *
+ * This file analyzes two main part of the serial checker program by its disassembled C code.
+ * The first part is its main function.
+ * The second part is test_key() function.
+ * The solution to the serial number is described at the end of the file.
+ */
+
 // simplified disassembled pseudo code for main
 int main(void) {
 
@@ -26,8 +38,8 @@ int main(void) {
 	scanf("%04x-%04x-%04x-%04x", &serial_1, &serial_2, &serial_3, &serial_4);
 	putchar('\n');
 	
-	// test_key is the key point to this program, if this function returns 0 then the validation fails.
-	// We need to analyze function test_key to avoid it from returning 0.
+	// test_key() is the key point to this program, if this function returns 0 then the validation fails.
+	// We need to analyze function test_key() to avoid it from returning 0.
 	eax = test_key(name, serial_1, serial_2, serial_3, serial_4);
 	
 	if (eax != 0) {
