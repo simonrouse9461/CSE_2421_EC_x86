@@ -13,7 +13,7 @@
 // simplified disassembled pseudo code for main
 int main(void) {
 
-	// Initialize everything.
+	// Initialize everything needed.
 	short serial_1;
 	short serial_2;
 	short serial_3;
